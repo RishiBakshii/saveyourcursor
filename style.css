@@ -1,0 +1,291 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.r1{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    left: 650px;
+    position: relative;
+    top: 12px;
+    animation: redanimation 1.8s ease-in-out 0s infinite alternate;
+
+}
+.r2{
+    background-color: yellow;
+    top: 160px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    animation: yellowanimation 2s ease-in-out 0s infinite alternate;
+
+}
+.r3{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    left: 1000px;
+    bottom: 399px;
+    position: relative;
+    animation: greenanimation 2s ease-in-out 0s infinite alternate;
+
+
+}
+.r4{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 0px;
+    animation: blueanimation 2.1s ease-in-out 0s infinite alternate;
+
+}
+.r5{
+    background-color: aqua;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    left: 0px;
+    animation: aquaanimation 1s ease-in-out 0s infinite alternate;
+
+}
+.r6{
+    background-color: blueviolet;
+    bottom: 800px;
+    height: 140px;
+    width: 200px;
+    position: relative;
+    animation: purpleanimation 2s ease-in-out 0s infinite alternate;
+
+}
+.r7{
+    background-color: deeppink;
+    height: 200px;
+    width: 200px;
+    left: 1700px;
+    bottom: 960px;
+    position: relative;
+    animation: pinkanimation 2s ease-in-out 0s infinite alternate;}
+.r8{
+    background-color: coral;
+    height: 200px;
+    width: 70px;
+    left: 1300px;
+    bottom: 960px;
+    position: relative;
+    animation: coralanimation 1s ease-in-out 0s infinite alternate;}
+.r9{
+    background-color: seagreen;
+    height: 120px;
+    width: 100px;
+    left: 120px;
+    bottom: 960px;
+    position: relative;
+    animation: seagreenanimation 3s ease-in-out 0s infinite alternate;}
+.r10{
+    background-color: saddlebrown;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    left: 0px;
+    bottom: 1300px;
+    animation: saddlebrownanimation 1s ease-in-out 0s infinite alternate;
+
+}
+.r11{
+    background-color: blueviolet;
+    height: 120px;
+    width: 70px;
+    left: 300px;
+    bottom: 960px;
+    position: relative;
+    animation: bluevioletanimation 3s ease-in-out 0s infinite alternate;}
+.r12{
+    background-color: crimson;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    left: 1400px;
+    bottom: 1400px;
+    animation: crimsonanimation 3s ease-out 0s infinite alternate;
+
+}
+
+.con{
+    background-color: black;
+    height: 100vh;
+}
+.box{
+    background-color: red;
+    height: 2px;
+    width: 0px;
+    position: relative;
+    animation: animation_youtube 1s ease-in-out 0s 1 forwards;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    color: white;
+    align-items: center;
+}
+@keyframes animation_youtube{
+    0% {
+        width: 0px;
+    }
+
+    75%{
+        width: 1400px;
+    }
+    100%{
+    width: 100vmax;
+    }
+}
+/* all boxes animations here */
+@keyframes redanimation{
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 738px;
+    }
+}
+@keyframes greenanimation{
+    0%{
+        bottom:399px;
+    }
+    100%{
+        bottom: -340px;
+    }
+}
+@keyframes blueanimation{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 1700px;
+    }
+}
+@keyframes yellowanimation{
+    0%{
+        left: 0px;
+    }
+    40%{
+        left: 1100px;
+    }
+    100%{
+        left: 1700px;
+    }
+}
+@keyframes aquaanimation{
+    0%{
+        left: 0px;
+    }
+
+    70%{
+        left: 400px;
+    }
+    100%{
+        left: 1000px;
+    }
+}
+@keyframes crimsonanimation{
+    0%{
+        left: 0px;
+    }
+
+    100%{
+        left: 1900px;
+    }
+}
+@keyframes saddlebrownanimation{
+    0%{
+        left: 40px;
+    }
+
+    20%{
+        left: 400px;
+    }
+
+    60%{
+        left: 1640px;
+    }
+    100%{
+        left: 1700px;
+    }
+}
+@keyframes purpleanimation{
+    0%{
+        left: 0px;
+    }
+    70%{
+        left: 800px;
+    }
+    100%{
+        left: 1700px;
+    }
+}
+@keyframes pinkanimation{
+    0%{
+        bottom: 960px;
+    }
+    30%{
+        bottom: 560px;
+    }
+    100%{
+        bottom: 230px;
+    }
+}
+@keyframes coralanimation{
+    0%{
+        bottom: 0px;
+    }
+    33%{
+        bottom: 600px;
+    }
+    100%{
+        bottom: 1170px;
+    }
+}
+@keyframes seagreenanimation{
+    0%{
+        bottom: 500px;
+    }
+    70%{
+        bottom: 900px;
+    }
+    100%{
+        bottom: 1500px;
+    }
+}
+@keyframes bluevioletanimation{
+    0%{
+        bottom: 1300px;
+    }
+    20%{
+        bottom: 900px;
+    }
+    100%{
+        bottom: 1500px;
+    }
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align:  center;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.r17{
+    color:'red';
+}
