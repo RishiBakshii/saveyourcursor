@@ -4,8 +4,7 @@
 // console.log(con)
 
 
-const audio=document.querySelector('audio')
-audio.play()
+let audio=document.querySelector('audio')
 
 let con=document.getElementsByName('boxes')
 Array.from(con).forEach(function(element){
@@ -18,6 +17,7 @@ Array.from(con).forEach(function(element){
         let head2=document.querySelector('h2')
         if(head2.innerText==''){
         head2.innerText='Try Again?'
+        audio.play()
         }
         
     })
